@@ -1,0 +1,153 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% Font options
+\usepackage[sfdefault]{roboto}  % Sans-serif font
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{\Large\bfseries\scshape\raggedright}{}{0em}{}[\titlerule]
+
+% Ensure PDF is machine readable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingList}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Huge Felipe Guimarães} \\
+  \small 
+  \href{tel:+5521964332057}{+55 21 96433 2057} $|$ 
+  \href{mailto:felipeemg@gmail.com}{felipeemg@gmail.com} $|$ 
+  \href{https://linkedin.com/in/felipe-guimaraes-techlead}{linkedin.com/in/felipe-guimaraes-techlead/} $|$
+  \href{https://github.com/fguimaraess}{github.com/fguimaraess}
+\end{center}
+
+\section*{Summary}
+Information Technology professional with solid experience in Project Management and leading technical teams. Specialized in agile methodologies such as SCRUM and KANBAN, focusing on roadmap strategy, backlog prioritization, and delivering value to the client. Academic background includes two MBAs: in People Management and Leadership, and Project Management. Seeking challenging opportunities to apply my expertise and drive positive results. 
+
+\section{Technical Skills}
+\resumeSubHeadingList
+  \resumeItem{\textbf{Languages}: C\#, PL/SQL, JavaScript, Java, Python, VB, ASP.}
+  \resumeItem{\textbf{Technologies}: .NET, TypeScript, React, PostgreSQL, Rabbit MQ, Docker, Kubernetes, CI/CD, Azure DevOps, AWS, S3, SQS, Dynamo DB, MongoDB, Redis, SQL Server, MySQL, Oracle, React, Vue.}
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingList
+  \resumeSubheading
+      {\href{https://www.unilasalle.edu.br/vestibular/rj}{UniLaSalle}}{}
+      {Bachelor's degree in Information Systems}{Jan 2012 -- Jan 2017}
+  \resumeSubheading
+      {\href{https://descomplica.com.br/pos-graduacao/}{Descomplica}}{}
+      {MBA in Business Management and Information Technology}{Feb 2021 -- Dec 2021}
+  \resumeSubheading
+      {\href{https://online.uva.br/}{Universidade Veiga de Almeida (UVA)}}{}
+      {MBA in People Management and Leadership}{Jan 2023 -- Nov 2023}      
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingList
+  \resumeSubheading
+      {Tech Lead}{Mar 2019 -- current}
+      {\href{https://www.btgpactual.com/}{BTG Pactual Bank}}{}
+      \resumeSubHeadingList
+          \resumeItem{\textbf{Tech leader of the team responsible for fund accounts and clients.}}
+          \resumeItem{\textbullet\ RESULT - Approximately \textbf{30k USD in the last year} saving by changing the architecture of the squad's main system, deciding to switch the database from DynamoDB to PostgreSQL.}
+          \resumeItem{\textbullet\ TECH - .NET, C\#, React, PostgreSQL, Redis, S3, SQS, Masstransit, Rabbit MQ, Docker, CI/CD, AWS, EDA (Event-driven architecture).}
+
+          \resumeItem{\textbf{Creation of a roadmap for digital client onboarding.}}
+          \resumeItem{\textbullet\ RESULT - Approximately \textbf{200 hours/month} of efficiency generated.}
+          \resumeItem{\textbullet\ TECH - .NET, C\#, React, PostgreSQL, Redis, S3, SQS, Masstransit, Rabbit MQ, Docker, CI/CD, AWS, EDA (Event-driven architecture).}
+      \resumeSubHeadingListEnd
+      \resumeSubHeadingList
+          \resumeItem{\textbf{Tech leader of the team responsible for the fund risk area.}}
+          \resumeItem{\textbullet\ Approximately \textbf{600 hours in the last year} of efficiency by developing a scalable system to ensure the execution of 10k investment funds each day, where the legacy system could not support it.}
+          \resumeItem{\textbullet\ TECH - .NET, C\#, React, PostgreSQL, S3, Rabbit MQ, Docker, CI/CD, AWS, EDA (Event-driven architecture).}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Full Stack Developer}{May 2018 -- Mar 2019}
+      {\href{https://realtask.com.br/}{RealTask Technology}}{}
+      \resumeSubHeadingList
+          \resumeItem{\textbf{Developed APIs, Worker Services, Front-Ends for calculate risks.}}
+          \resumeItem{\textbullet\ RESULT - The system I created enabled the bank to bring more services to the area, as this problem was resolved. This system was previously managed by a spreadsheet, and with the increased volume of data, it was becoming increasingly difficult to control operationally.}
+          \resumeItem{\textbullet\ TECH - .NET, C\#, React, Rabbit MQ, PostgreSQL, Docker, Kubernetes, CI/CD, Azure DevOps, Redis, AWS, S3, Dynamo, EDA (Event-driven architecture), Unit tests.}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Full Stack Software Developer}{May 2018 -- May 2019}
+      {\href{https://gruposaltaedu.com/}{Grupo Salta Educação}}{}
+      \resumeSubHeadingList
+          \resumeItem{\textbf{Developed APIs and services for school systems, enrollment, and finance.}}
+          \resumeItem{\textbullet\ RESULT - Enabled the decommissioning of the old internal enrollment system. We created an online system with a \textbf{10-minute} enrollment process, instead of having to go to the school in person to complete the enrollment.}
+          \resumeItem{\textbullet\ TECH - .NET, C\#, SignalR, Angular, Knockout, Node, SQL Server, CI/CD,  TDD (Test-driven development).}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Full Stack Developer}{Jun 2017 -- May 2018}
+      {\href{https://www.granado.com.br/}{Granado Pharmacias}}{}
+      \resumeSubHeadingList
+          \resumeItem{\textbf{Developed an online fragrance game (API, Front-End) used to attract customers to the stores.}}
+          \resumeItem{\textbullet\ RESULT - This game was an animated quiz-based game where you could play either from a tablet in the physical store or online. Based on your answers, the game would recommend a perfume and a Spotify playlist that suits you. - \textbf{30k users/year}.}
+          \resumeItem{\textbullet\ TECH - .NET, C\#, jQuery, Razor, Javascript, SQL Server, PLSQL, IIS.}
+      \resumeSubHeadingListEnd
+      \resumeSubHeadingList
+          \resumeItem{\textbf{Developed an internal sales system for HR to use with the company's employees.}}
+          \resumeItem{\textbullet\ RESULT - When the product is close to its expiration date and needs to be removed from the store, the company started selling it to employees at a discount thanks to the system I created for HR, at 70\% off the product's price.}
+          \resumeItem{\textbullet\ TECH - .NET, C\#, jQuery, Razor, Javascript, SQL Server, PLSQL, IIS.}
+      \resumeSubHeadingListEnd
+      \resumeSubHeadingList
+          \resumeItem{\textbf{Developed a commission report.}}
+          \resumeItem{\textbullet\ RESULT - I created a commission report because the company’s sales control was done via spreadsheets, even though all sales data existed in systems. By consolidating everything into the systems and mapping the rules for all Brazilian states, I calculated taxes and commissions for each employee. This effort led to a \textbf{10\%} reduction in the final monthly amount paid to employees in BRL.}
+          \resumeItem{\textbullet\ TECH - .NET, C\#, jQuery, Razor, Javascript, SQL Server, PLSQL, IIS.}
+      \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+
+\section{Languages}
+\resumeSubHeadingList
+  \resumeSubheading
+      {English}{}
+      {Advanced}{}
+  \resumeSubheading
+      {Portuguese}{}
+      {Native}{}
+\resumeSubHeadingListEnd
+
+\end{document}
