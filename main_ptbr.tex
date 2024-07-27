@@ -1,0 +1,154 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% Font options
+\usepackage[sfdefault]{roboto}  % Sans-serif font
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{\Large\bfseries\scshape\raggedright}{}{0em}{}[\titlerule]
+
+% Ensure PDF is machine readable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingList}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Huge Felipe Guimarães} \\
+  \small 
+  \href{tel:+5521964332057}{+55 21 96433 2057} $|$ 
+  \href{mailto:felipeemg@gmail.com}{felipeemg@gmail.com} $|$ 
+  \href{https://linkedin.com/in/felipe-guimaraes-techlead}{linkedin.com/in/felipe-guimaraes-techlead/} $|$
+  \href{https://github.com/fguimaraess}{github.com/fguimaraess}
+\end{center}
+
+\section*{Resumo}
+Profissional de Tecnologia da Informação com sólida experiência em Gerenciamento de Projetos e liderança de equipes técnicas. Especializado em metodologias ágeis como SCRUM e KANBAN, com foco em estratégia de roadmap, priorização de backlog e entrega de valor ao cliente. Formação acadêmica inclui dois MBAs: em Gestão de Pessoas e Liderança, e em Gerenciamento de Projetos. Buscando oportunidades desafiadoras para aplicar minha expertise e gerar resultados positivos.
+
+\section{Conhecimentos Técnicos}
+\resumeSubHeadingList
+  \resumeItem{\textbf{Linguagens}: C\#, PL/SQL, JavaScript, Java, Python, VB, ASP.}
+  \resumeItem{\textbf{Tecnologias}: .NET, TypeScript, React, PostgreSQL, Rabbit MQ, Docker, Kubernetes, CI/CD, Azure DevOps, AWS, S3, SQS, Dynamo DB, MongoDB, Redis, SQL Server, MySQL, Oracle, React, Vue.}
+\resumeSubHeadingListEnd
+
+\section{Formação}
+\resumeSubHeadingList
+  \resumeSubheading
+      {\href{https://www.unilasalle.edu.br/vestibular/rj}{UniLaSalle}}{}
+      {Bacharel em Sistemas de Informação}{Jan 2012 -- Jan 2017}
+  \resumeSubheading
+      {\href{https://descomplica.com.br/pos-graduacao/}{Descomplica}}{}
+      {MBA em Gestão de Negócios e Tecnologia da Informação}{Fev 2021 -- Dez 2021}
+  \resumeSubheading
+      {\href{https://online.uva.br/}{Universidade Veiga de Almeida (UVA)}}{}
+      {MBA em Gestão de Pessoas e Liderança}{Jan 2023 -- Nov 2023}
+\resumeSubHeadingListEnd
+
+\section{Experiência}
+\resumeSubHeadingList
+  \resumeSubheading
+      {Tech Lead}{Mar 2019 -- atual}
+      {\href{https://www.btgpactual.com/}{BTG Pactual}}{}
+      \resumeSubHeadingList
+          \resumeItem{\textbf{Líder técnico da equipe responsável por contas e clientes de fundos.}}
+          \resumeItem{\textbullet\ RESULTADO - Aproximadamente \textbf{30k USD economizados no último ano} ao mudar a arquitetura do principal sistema da equipe, decidindo trocar o banco de dados de DynamoDB para PostgreSQL.}
+          \resumeItem{\textbullet\ RESULTADO - Aproximadamente \textbf{50 milhões de mensagens}  processadas diariamente utilizando RabbitMQ, que possibilitou trazer um novo cliente com \textbf{25BI USD} sob gestão para o banco.}
+          \resumeItem{\textbullet\ TECNOLOGIAS - .NET, C\#, React, PostgreSQL, Redis, S3, SQS, Masstransit, Rabbit MQ, Docker, CI/CD, AWS, EDA (Event-driven architecture).}
+
+          \resumeItem{\textbf{Criação do roadmap estratégico para o onboarding digital de clientes.}}
+          \resumeItem{\textbullet\ RESULTADO - Aproximadamente \textbf{200h/mês} de eficiência geradas.}
+          \resumeItem{\textbullet\ TECNOLOGIAS - .NET, C\#, React, PostgreSQL, Redis, S3, SQS, Masstransit, RabbitMQ, Docker, CI/CD, AWS, EDA (Event-driven architecture).}
+      \resumeSubHeadingListEnd
+      \resumeSubHeadingList
+          \resumeItem{\textbf{Líder técnico da equipe responsável pela área de risco de fundos.}}
+          \resumeItem{\textbullet\ RESULTADO - Aproximadamente \textbf{600 horas no último ano} de eficiência desenvolvendo um sistema escalável para garantir a execução de 10 mil fundos de investimentos diariamente, onde o sistema legado não suportava mais.}
+          \resumeItem{\textbullet\ TECNOLOGIAS - .NET, C\#, React, PostgreSQL, S3, Rabbit MQ, Docker, CI/CD, AWS, EDA (Event-driven architecture).}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Full Stack Developer}{Mai 2018 -- Mar 2019}
+      {\href{https://realtask.com.br/}{RealTask Technology}}{}
+      \resumeSubHeadingList
+          \resumeItem{\textbf{Desenvolvimento de APIs, Worker Services e Front-Ends para calcular riscos.}}
+          \resumeItem{\textbullet\ RESULTADO - Permitiu ao banco trazer mais serviços para a área, uma vez que esse problema foi resolvido. Este sistema era gerenciado anteriormente por uma planilha e, com o aumento do volume de dados, estava se tornando cada vez mais difícil de controlar operacionalmente.}
+          \resumeItem{\textbullet\ TECNOLOGIAS - .NET, C\#, React, Rabbit MQ, PostgreSQL, Docker, Kubernetes, CI/CD, Azure DevOps, Redis, AWS, S3, Dynamo, EDA (Event-driven architecture), Testes unitários.}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Full Stack Software Developer}{Mai 2018 -- Mai 2019}
+      {\href{https://gruposaltaedu.com/}{Grupo Salta Educação}}{}
+      \resumeSubHeadingList
+          \resumeItem{\textbf{Desenvolvimento de APIs e serviços para sistemas escolares, matrículas e financeiro.}}
+          \resumeItem{\textbullet\ RESULTADO - Permitiu a desativação do antigo sistema interno de matrículas. Criamos um sistema online com um processo de matrícula de \textbf{10 minutos}, não sendo mais necessário ir à escola pessoalmente para completar a matrícula.}
+          \resumeItem{\textbullet\ TECNOLOGIAS - .NET, C\#, SignalR, Angular, Knockout, Node, SQL Server, CI/CD,  TDD (Test-driven development).}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Full Stack Developer}{Jun 2017 -- Mai 2018}
+      {\href{https://www.granado.com.br/}{Granado Pharmacias}}{}
+      \resumeSubHeadingList
+          \resumeItem{\textbf{Desenvolvi um jogo de fragrâncias online (API, Front-End) utilizado para atrair clientes para as lojas.}}
+          \resumeItem{\textbullet\ RESULTADO - Esse jogo era um quiz animado em que você podia jogar tanto de um tablet na loja física quanto online. Com base nas suas respostas, o jogo recomendava um perfume e uma playlist do Spotify que combinassem com você. - \textbf{30k usuários/ano}.}
+          \resumeItem{\textbullet\ TECNOLOGIAS - .NET, C\#, jQuery, Razor, Javascript, SQL Server, PLSQL, IIS.}
+      \resumeSubHeadingListEnd
+      \resumeSubHeadingList
+          \resumeItem{\textbf{Desenvolvi um sistema de vendas interno para o RH utilizar com os funcionários da empresa.}}
+          \resumeItem{\textbullet\ RESULTADO - Quando o produto está próximo da data de vencimento e precisa ser retirado da loja, a empresa começou a vendê-lo para os funcionários com desconto de 70\% do preço do produto com esse sistema.}
+          \resumeItem{\textbullet\ TECNOLOGIAS - .NET, C\#, jQuery, Razor, Javascript, SQL Server, PLSQL, IIS.}
+      \resumeSubHeadingListEnd
+      \resumeSubHeadingList
+          \resumeItem{\textbf{Desenvolvi um relatório de comissões.}}
+          \resumeItem{\textbullet\ RESULTADO - Um relatório de comissões porque o controle de vendas da empresa era feito por meio de planilhas, apesar de todos os dados de vendas existirem em sistemas. Ao consolidar tudo nos sistemas e mapear as regras para todos os estados brasileiros, o relatório calcula impostos e comissões para cada funcionário. Esse esforço resultou em uma redução de \textbf{10\%} no valor final pago aos funcionários em reais por mês.}
+          \resumeItem{\textbullet\ TECNOLOGIAS - .NET, C\#, jQuery, Razor, Javascript, SQL Server, PLSQL, IIS.}
+      \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+
+\section{Idiomas}
+\resumeSubHeadingList
+  \resumeSubheading
+      {Inglês}{}
+      {Avançado}{}
+  \resumeSubheading
+      {Português}{}
+      {Nativo}{}
+\resumeSubHeadingListEnd
+
+\end{document}
