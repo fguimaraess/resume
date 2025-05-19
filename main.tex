@@ -9,12 +9,12 @@
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
-\usepackage[english]{babel}
+\usepackage[english]{babel} % Keep English for language/hyphenation rules
 \usepackage{tabularx}
 \input{glyphtounicode}
 
 % Font options
-\usepackage[sfdefault]{roboto}  % Sans-serif font
+\usepackage[sfdefault]{roboto} % Sans-serif font
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -56,106 +56,122 @@
 
 \begin{center}
   \textbf{\Huge Felipe Guimarães} \\
-  \small 
-  \href{tel:+5521964332057}{+55 21 96433 2057} $|$ 
-  \href{mailto:felipeemg@gmail.com}{felipeemg@gmail.com} $|$ 
+  \small
+  \href{tel:+5521964332057}{+55 21 96433 2057} $|$
+  \href{mailto:felipeemg@gmail.com}{felipeemg@gmail.com} $|$
   \href{https://linkedin.com/in/felipe-guimaraes-techlead}{linkedin.com/in/felipe-guimaraes-techlead/} $|$
   \href{https://github.com/fguimaraess}{github.com/fguimaraess}
 \end{center}
 
 \section*{Summary}
-Information Technology professional with solid experience in Project Management and leading technical teams. Specialized in agile methodologies such as SCRUM and KANBAN, focusing on roadmap strategy, backlog prioritization, and delivering value to the client. Academic background includes two MBAs: in People Management and Leadership, and Project Management. Seeking challenging opportunities to apply my expertise and drive positive results. 
+Solutions Architect and Technical Lead with solid Full Stack development experience, specializing in .NET C\#, and proficient in modern Front-end frameworks (React, Vue, Flutter). Expertise in designing and implementing scalable architectures (Microservices, EDA, Vertical Slice), Cloud Computing (AWS, Azure), DevOps (CI/CD, Docker, Kubernetes), API security, and observability practices. Technical team leadership focused on high performance, product strategy, and continuous value delivery. I have strong interest and practical experience in Artificial Intelligence, developing solutions with RAG, ONNX, and local LLMs for automation and analysis. MBAs in People Management/Leadership and Project Management complement my technical role with strategic and managerial vision. Seeking challenging opportunities that combine complex architecture, technical leadership, and the application of new technologies, including AI.
 
 \section{Technical Skills}
 \resumeSubHeadingList
-  \resumeItem{\textbf{Languages}: C\#, PL/SQL, JavaScript, Java, Python, VB, ASP.}
-  \resumeItem{\textbf{Technologies}: .NET, TypeScript, React, PostgreSQL, Rabbit MQ, Docker, Kubernetes, CI/CD, Azure DevOps, AWS, S3, SQS, Dynamo DB, MongoDB, Redis, SQL Server, MySQL, Oracle, React, Vue.}
+    \resumeItem{\textbf{Languages}: C\#, Python, JavaScript, TypeScript, Java, PL/SQL, VB.}
+    \resumeItem{\textbf{Back-end & Frameworks}: .NET (.NET Framework, .NET Core, Minimal APIs, Dapper, MediatR), Node.js.}
+    \resumeItem{\textbf{Architecture & Patterns}: Microservices, Event-driven Architecture (EDA), Vertical Slice Architecture, DDD, Design Patterns, API Design, Clean Architecture.}
+    \resumeItem{\textbf{Front-end & Frameworks}: React, Vue.js (Vuex, Composition API), Flutter (UI/UX Best Practices), Angular, jQuery, Razor.}
+    \resumeItem{\textbf{Databases}: PostgreSQL, SQL Server, Oracle, MySQL, MongoDB, DynamoDB, Redis.}
+    \resumeItem{\textbf{Messaging}: RabbitMQ, SQS, Kafka, Masstransit.}
+    \resumeItem{\textbf{Cloud Computing & Infra}: AWS, Azure, S3, Docker, Kubernetes (K8s, K3s, Portainer), IIS.}
+    \resumeItem{\textbf{DevOps & CI/CD}: Azure DevOps, GitHub Actions, CI/CD Principles, Monitoring (ELK stack), Observability, Automation.}
+    \resumeItem{\textbf{Security}: API Security, Authentication/Authorization (JWT, OAuth2), Identity Management.}
+    \resumeItem{\textbf{Methodologies & Practices}: SCRUM, KANBAN, TDD, Unit Testing, Inner Source, Scaffolding.}
+    \resumeItem{\textbf{Artificial Intelligence}: RAG (Retrieval Augmented Generation), ONNX (for QA models), Local LLMs, Analysis Automation.}
 \resumeSubHeadingListEnd
 
 \section{Education}
 \resumeSubHeadingList
-  \resumeSubheading
-      {\href{https://www.unilasalle.edu.br/vestibular/rj}{UniLaSalle}}{}
-      {Bachelor's degree in Information Systems}{Jan 2012 -- Jan 2017}
-  \resumeSubheading
-      {\href{https://descomplica.com.br/pos-graduacao/}{Descomplica}}{}
-      {MBA in Business Management and Information Technology}{Feb 2021 -- Dec 2021}
-  \resumeSubheading
-      {\href{https://online.uva.br/}{Universidade Veiga de Almeida (UVA)}}{}
-      {MBA in People Management and Leadership}{Jan 2023 -- Nov 2023}      
+    \resumeSubheading
+        {\href{https://online.uva.br/}{Universidade Veiga de Almeida (UVA)}}{}
+        {MBA in People Management and Leadership}{Jan 2023 -- Nov 2023}
+    \resumeSubheading
+        {\href{https://descomplica.com.br/pos-graduacao/}{Descomplica}}{}
+        {MBA in Business and Information Technology Management}{Fev 2021 -- Dez 2021} % Keeping month abbreviations as is for consistency
+    \resumeSubheading
+        {\href{https://www.unilasalle.edu.br/vestibular/rj}{UniLaSalle}}{}
+        {Bachelor's Degree in Information Systems}{Jan 2012 -- Jan 2017}
 \resumeSubHeadingListEnd
 
 \section{Experience}
 \resumeSubHeadingList
-  \resumeSubheading
-        {Solutions Architect}{Sep 2024 -- current}
-      {\href{https://www.genialinvestimentos.com.br/}{Genial Investments}}{}
-      \resumeSubHeadingList
-          \resumeItem{\textbf{Solutions Architect responsible for Fixed Income, Funds, B2B, Global Investments, and Pension Teams.}}
-          \resumeItem{\textbullet\ RESULT - Achieved \textbf{60k USD annual} savings by migrating the company-wide logging stack to ELK.}
-          \resumeItem{\textbullet\ RESULT - Reduced time-to-market for internal components by implementing an inner-source package creation flow, empowering the engineering team to develop faster and with less bureaucracy.}
-          \resumeItem{\textbullet\ RESULT - Automated repository creation in Azure using Backstage and custom scaffolding, streamlining CI/CD pipelines for workers, APIs, and BFFs.}
-          \resumeItem{\textbullet\ RESPONSIBILITY - Defined company-wide coding standards and ensured code quality across all teams.}
-          \resumeItem{\textbullet\ TECH - .NET, C\#, React, Flutter, Redis, S3, SQS, Masstransit, Rabbit MQ, Docker, CI/CD, AWS, InnerSource, EDA (Event-driven architecture).}
-      \resumeSubHeadingListEnd
-  \resumeSubheading
-       {Tech Lead}{Mar 2020 -- Sep 2024}
-      {\href{https://www.btgpactual.com/}{BTG Pactual Bank}}{}
-      \resumeSubHeadingList
-          \resumeItem{\textbf{Tech leader of the team responsible for fund accounts and clients.}}
-          \resumeItem{\textbullet\ RESULT - Approximately \textbf{30k USD in the last year} saving by changing the architecture of the squad's main system, deciding to switch the database from DynamoDB to PostgreSQL.}
-          \resumeItem{\textbullet\ RESULT - Approximately \textbf{50 million} messages are processed daily using RabbitMQ, which enabled the company to bring in a new client with \textbf{25 billion USD} under management for the bank.}
-          \resumeItem{\textbullet\ TECH - .NET, C\#, React, PostgreSQL, Redis, S3, SQS, Masstransit, Rabbit MQ, Docker, CI/CD, AWS, EDA (Event-driven architecture).}
-      \resumeSubHeadingListEnd
-      \resumeSubHeadingList
-          \resumeItem{\textbf{Tech leader of the team responsible for the fund risk area.}}
-          \resumeItem{\textbullet\ Approximately \textbf{600 hours in the last year} of efficiency by developing a scalable system to ensure the execution of 10k investment funds each day, where the legacy system could not support it.}
-          \resumeItem{\textbullet\ TECH - .NET, C\#, React, PostgreSQL, S3, Rabbit MQ, Docker, CI/CD, AWS, EDA (Event-driven architecture).}
-      \resumeSubHeadingListEnd
-  \resumeSubheading
-      {Full Stack Developer}{May 2019 -- Mar 2020}
-      {\href{https://realtask.com.br/}{RealTask Technology}}{}
-      \resumeSubHeadingList
-          \resumeItem{\textbf{Developed APIs, Worker Services, Front-Ends for calculate risks.}}
-          \resumeItem{\textbullet\ RESULT - Enabled the bank to bring more services to the area, as this problem was resolved. This system was previously managed by a spreadsheet, and with the increased volume of data, it was becoming increasingly difficult to control operationally.}
-          \resumeItem{\textbullet\ TECH - .NET, C\#, React, Rabbit MQ, PostgreSQL, Docker, Kubernetes, CI/CD, Azure DevOps, Redis, AWS, S3, Dynamo, EDA (Event-driven architecture), Unit tests.}
-      \resumeSubHeadingListEnd
-  \resumeSubheading
-      {Full Stack Software Developer}{May 2018 -- May 2019}
-      {\href{https://gruposaltaedu.com/}{Grupo Salta Educação}}{}
-      \resumeSubHeadingList
-          \resumeItem{\textbf{Developed APIs and services for school systems, enrollment, and finance.}}
-          \resumeItem{\textbullet\ RESULT - Enabled the decommissioning of the old internal enrollment system. We created an online system with a \textbf{10-minute} enrollment process, instead of having to go to the school in person to complete the enrollment.}
-          \resumeItem{\textbullet\ TECH - .NET, C\#, SignalR, Angular, Knockout, Node, SQL Server, CI/CD,  TDD (Test-driven development).}
-      \resumeSubHeadingListEnd
-  \resumeSubheading
-      {Full Stack Developer}{Jun 2017 -- May 2018}
-      {\href{https://www.granado.com.br/}{Granado Pharmacias}}{}
-      \resumeSubHeadingList
-          \resumeItem{\textbf{Developed an online fragrance game (API, Front-End) used to attract customers to the stores.}}
-          \resumeItem{\textbullet\ RESULT - This game was an animated quiz-based game where you could play either from a tablet in the physical store or online. Based on your answers, the game would recommend a perfume and a Spotify playlist that suits you. - \textbf{30k users/year}.}
-          \resumeItem{\textbullet\ TECH - .NET, C\#, jQuery, Razor, Javascript, SQL Server, PLSQL, IIS.}
-      \resumeSubHeadingListEnd
-      \resumeSubHeadingList
-          \resumeItem{\textbf{Developed an internal sales system for HR to use with the company's employees.}}
-          \resumeItem{\textbullet\ RESULT - When the product is close to its expiration date and needs to be removed from the store, the company started selling it to employees at a discount thanks to this system, at 70\% off the product's price.}
-          \resumeItem{\textbullet\ TECH - .NET, C\#, jQuery, Razor, Javascript, SQL Server, PLSQL, IIS.}
-      \resumeSubHeadingListEnd
-      \resumeSubHeadingList
-          \resumeItem{\textbf{Developed a commission report.}}
-          \resumeItem{\textbullet\ RESULT - A commission report because the company’s sales control was done via spreadsheets, even though all sales data existed in systems. By consolidating everything into the systems and mapping the rules for all Brazilian states, It calculates taxes and commissions for each employee. This effort led to a \textbf{10\%} reduction in the final monthly amount paid to employees in BRL.}
-          \resumeItem{\textbullet\ TECH - .NET, C\#, jQuery, Razor, Javascript, SQL Server, PLSQL, IIS.}
-      \resumeSubHeadingListEnd
+    \resumeSubheading
+        {Solutions Architect}{Sep 2024 -- Present} % Translated date
+        {\href{https://www.genialinvestimentos.com.br/}{Genial Investments}}{} % Company name stays
+        \resumeSubHeadingList
+            \resumeItem{\textbf{Solutions Architect} responsible for the Fixed Income, Funds, B2B, Global Investments, and Pension teams.} % Translated role and teams
+            \resumeItem{\textbullet\ RESULT - \textbf{Reduced annual costs by 300k BRL} by migrating the company's log stack to ELK, optimizing costs and observability.} % Translated and rephrased slightly
+            \resumeItem{\textbullet\ RESULT - Accelerated internal component development by implementing an Inner Source-based package creation flow, reducing bureaucracy, promoting reusability, and increasing team agility.} % Translated and refined
+            \resumeItem{\textbullet\ RESULT - Automated repository creation in Azure using Backstage and custom scaffolding, optimizing CI/CD pipelines for various project types (workers, APIs, BFFs).} % Translated and refined
+            \resumeItem{\textbullet\ RESPONSIBILITY - Defining and disseminating architecture, coding, security, and quality assurance standards for code and tests.} % Translated and added "security, and tests"
+            \resumeItem{\textbf{Technologies}: .NET, C\#, React, Flutter, Redis, S3, SQS, Masstransit, Rabbit MQ, Kafka, Oracle, MongoDB, Docker, CI/CD, AWS, InnerSource, EDA, Microservices.} % Technologies stay, added Kafka, Oracle, MongoDB based on source
+        \resumeSubHeadingListEnd
+    \resumeSubheading
+        {Tech Lead}{Mar 2020 -- Sep 2024}
+        {\href{https://www.btgpactual.com/}{BTG Pactual}}{} % Company name stays
+        \resumeSubHeadingList
+            \resumeItem{\textbf{Technical Lead} for the team responsible for funds accounts and clients.} % Translated role and team
+            \resumeItem{\textbullet\ RESULT - \textbf{Approximately 30k USD saved in the last year} by leading the architectural change of the main system, deciding to switch the database from DynamoDB to PostgreSQL, aiming for cost optimization and query flexibility.} % Translated and clarified reason for switch
+            \resumeItem{\textbullet\ RESULT - Daily processing of \textbf{approximately 50 million messages} using RabbitMQ, enabling the integration of a new client with \textbf{25BN USD} under management and ensuring scalability for future growth.} % Translated and rephrased for impact
+            \resumeItem{\textbf{Technologies}: .NET, C\#, React, PostgreSQL, Redis, S3, SQS, Masstransit, Rabbit MQ, Docker, CI/CD, AWS, EDA (Event-driven architecture), Microservices.} % Technologies stay, added Microservices
+
+            \resumeItem{\textbf{Creation and execution of the strategic roadmap} for digital client onboarding, optimizing user experience and internal processes.} % Translated role
+            \resumeItem{\textbullet\ RESULT - \textbf{Approximately 200h/month of efficiency} generated through onboarding flow optimization and manual step automation.} % Translated and clarified source of efficiency
+            \resumeItem{\textbf{Technologies}: .NET, C\#, React, PostgreSQL, Redis, S3, SQS, Masstransit, RabbitMQ, Docker, CI/CD, AWS, EDA (Event-driven architecture), Microservices.} % Technologies stay, added Microservices
+        \resumeSubHeadingListEnd
+    \resumeSubHeadingList
+            \resumeItem{\textbf{Technical Lead} for the team responsible for the funds risk area.} % Translated role and area
+            \resumeItem{\textbullet\ RESULT - \textbf{Approximately 600 hours saved in the last year} and increased reliability by developing a scalable system to ensure the daily execution of 10 thousand investment funds, replacing an outdated and unreliable legacy system.} % Translated and clarified benefits
+            \resumeItem{\textbf{Technologies}: .NET, C\#, React, PostgreSQL, S3, Rabbit MQ, Docker, CI/CD, AWS, EDA (Event-driven architecture), Microservices.} % Technologies stay, added Microservices
+        \resumeSubHeadingListEnd
+    \resumeSubheading
+        {Full Stack Developer}{Mai 2019 -- Mar 2020} % Keeping month abbreviations
+        {\href{https://realtask.com.br/}{RealTask Technology}}{} % Company name stays
+        \resumeSubHeadingList
+            \resumeItem{\textbf{Development of solutions (APIs, Workers, Front-Ends)} for risk calculation and management, handling high data volumes.} % Translated role and focus
+            \resumeItem{\textbullet\ RESULT - Transformed a manual spreadsheet-based process into a robust and scalable system, enabling the expansion of services offered by the area and ensuring calculation accuracy.} % Translated and rephrased for transformation impact
+            \resumeItem{\textbf{Technologies}: .NET, C\#, React, Rabbit MQ, PostgreSQL, Docker, Kubernetes, CI/CD, Azure DevOps, Redis, AWS, S3, Dynamo, EDA (Event-driven architecture), Unit testing, Microservices.} % Technologies stay, added Microservices
+        \resumeSubHeadingListEnd
+    \resumeSubheading
+        {Full Stack Software Developer}{Mai 2018 -- Mai 2019} % Keeping month abbreviations
+        {\href{https://gruposaltaedu.com/}{Grupo Salta Educação}}{} % Company name stays
+        \resumeSubHeadingList
+            \resumeItem{\textbf{Development of APIs and services} for school systems (enrollment, financial, etc.), modernizing educational processes.} % Translated role and systems
+            \resumeItem{\textbullet\ RESULT - Implemented an online enrollment system with a reduced \textbf{10-minute} process, enabling the deactivation of the old in-person system and improving the experience for students and guardians.} % Translated and clarified benefit
+            \resumeItem{\textbf{Technologies}: .NET, C\#, SignalR, Angular, Knockout, Node, SQL Server, CI/CD, TDD (Test-driven development), Microservices.} % Technologies stay, added Microservices
+        \resumeSubHeadingListEnd
+    \resumeSubheading
+        {Full Stack Developer}{Jun 2017 -- Mai 2018} % Keeping month abbreviations
+        {\href{https://www.granado.com.br/}{Granado Pharmacias}}{} % Company name stays
+        \resumeSubHeadingList
+            \resumeItem{\textbf{Development of an online fragrance game (API + Front-End)} as a marketing and customer engagement tool.} % Translated role and objective
+            \resumeItem{\textbullet\ RESULT - Interactive game available on physical store tablets and online, attracting approximately \textbf{30k users/year} and recommending personalized perfumes and Spotify playlists based on user preferences.} % Translated and clarified impact
+            \resumeItem{\textbf{Technologies}: .NET, C\#, jQuery, Razor, Javascript, SQL Server, PLSQL, IIS.} % Technologies stay
+        \resumeSubHeadingListEnd
+        \resumeSubHeadingList
+            \resumeItem{\textbf{Development of an internal sales system} for HR, focused on selling products nearing expiration to employees.} % Translated role and focus
+            \resumeItem{\textbullet\ RESULT - Efficient system that enabled selling products with a 70\% discount to employees, optimizing inventory management and generating value for the company and collaborators.} % Translated and clarified benefit
+            \resumeItem{\textbf{Technologies}: .NET, C\#, jQuery, Razor, Javascript, SQL Server, PLSQL, IIS.} % Technologies stay
+        \resumeSubHeadingListEnd
+        \resumeSubHeadingList
+            \resumeItem{\textbf{Development of a commissions report}, consolidating sales data and applying complex business rules.} % Translated role and focus
+            \resumeItem{\textbullet\ RESULT - Replaced manual spreadsheet control with an automated system that accurately calculates taxes and commissions, resulting in a \textbf{10\% reduction} in the final amount paid in monthly commissions.} % Translated and clarified financial benefit
+            \resumeItem{\textbf{Technologies}: .NET, C\#, jQuery, Razor, Javascript, SQL Server, PLSQL, IIS.} % Technologies stay
+        \resumeSubHeadingListEnd
 \resumeSubHeadingListEnd
 
 \section{Languages}
 \resumeSubHeadingList
-  \resumeSubheading
-      {English}{}
-      {Advanced}{}
-  \resumeSubheading
-      {Portuguese}{}
-      {Native}{}
+    \resumeSubheading
+        {English}{}
+        {Advanced}{}
+    \resumeSubheading
+        {Spanish}{} % Added Spanish
+        {Basic}{} % Added Basic
+    \resumeSubheading
+        {Portuguese}{}
+        {Native}{}
 \resumeSubHeadingListEnd
 
 \end{document}
